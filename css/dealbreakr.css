@@ -1,0 +1,86 @@
+/* Skyblue: #16c1f3 */
+/* blue: #06f */
+/* Coral(RGB 255, 50, 50): #ff3232 */
+
+.HurmeGeometricSans4-Bold { 
+	font-family: HurmeGeometricSans4-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+.HurmeGeometricSans4-Regular { 
+	font-family: HurmeGeometricSans4-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+* {outline:none;}
+
+body {
+	font-size:14px;
+	font-family:HurmeGeometricSans4-Regular;/* This was the font they bought */
+	 color:#222;
+	 background-color:#e0f6ff;
+	 margin:0 !important;
+	 padding:0 !important;
+}
+
+nav {height:120px; width:100%; background-color:#eee; border-bottom:1px solid #999; box-shadow:0px 2px 4px #ccc; margin-bottom:15px;}
+#nav-inner {margin:auto; padding-top:20px;}
+#pages { margin-top:46px;}
+#pages h3 {display:inline; margin-left:50px; font-size:18px;}
+
+#above-the-fold {}
+#fake-profile { width: 660px; margin:40px auto 75px;}
+#below-the-fold {background-color:#fff; box-shadow:0px 0px 12px #000; text-align:center; padding:40px 0 40px 0;}
+#sign-up {margin:50px 0 100px;}
+#sign-up div.form-group {margin-bottom:10px;}
+
+h2 { margin-top:20px; line-height:1.5;}
+h3 { font-size:18px; color:#ff3232; margin-bottom:0px;}
+
+table tr td.one p { width:120px; text-align:right; padding-right:0; vertical-align:middle;}
+
+p {text-align:justify; font-size:16px; line-height: 1.4;}
+
+.hide {display:none;}
+.error, .alert {color:#F00;}
+
+/* http://charliepark.org/bootstrap_buttons/ */
+
+.btn-black {
+	padding:8px 20px;
+	border:none;
+	border-radius:6px;
+	color:#fff;
+	/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#111), to(#eee));
+	/* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #eee, #111);
+	/* Firefox 3.6+ */ background: -moz-linear-gradient(top, #eee, #111);
+	/* IE 10 */ background: -ms-linear-gradient(top, #eee, #111);
+	/* Opera 11.10+ */ background: -o-linear-gradient(top, #eee, #111); }
+
+.btn-grey {
+	position:relative;
+	top:6px;
+	right:10px;
+	padding:7px 20px !important;
+	border:none !important;
+	border-radius:6px;
+	color:#fff;
+	/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#fff));
+	/* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #fff, #eee);
+	/* Firefox 3.6+ */ background: -moz-linear-gradient(top, #fff, #eee);
+	/* IE 10 */ background: -ms-linear-gradient(top, #fff, #eee);
+	/* Opera 11.10+ */ background: -o-linear-gradient(top, #fff, #eee); }
+
+
+footer p {font-size:12px;}
+
+@media (max-width: 700px) {
+
+}
+
+@media (max-width: 420px) {
+
+}
+
